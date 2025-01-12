@@ -16,3 +16,6 @@ Verify the installation:
 This command should display the installed version of .NET, confirming that .NET 8.0 is installed.
 ## Run app
 dotnet run
+
+### Swagger
+[Swagger Rest Api](http://localhost:5282/swagger)

@@ -1,6 +1,0 @@
-@restApi_HostAddress = http://localhost:5008
-
-GET {{restApi_HostAddress}}/
-Accept: application/json
-
-###
