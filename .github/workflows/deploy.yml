@@ -30,6 +30,11 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build/wwwroot
           
+      - name: ls
+        run: ls -al 
+      - name: pwd
+        run: pwd
+          
       - name: Deploy to GitHub Pages james
         uses: JamesIves/github-pages-deploy-action@v4.7.2
         with:
