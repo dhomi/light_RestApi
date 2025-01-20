@@ -29,3 +29,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build/wwwroot
+          
+      - name: Deploy to GitHub Pages james
+        uses: JamesIves/github-pages-deploy-action@v4.7.2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: release/wwwroot
